@@ -1,0 +1,95 @@
+/* /* Selectores:
+
+Los selectores en CSS determinan a qué elementos se aplicarán los estilos.
+Puedes seleccionar elementos por etiqueta (div, p), clase (.clase), ID (#id), atributos, y más.
+Propiedades y Valores: */
+
+p {
+  color: blue;
+}
+
+/* Selector de clase */
+.destacado {
+    font-weight: bold;
+  }
+
+  /* Selector de ID */
+  #encabezado {
+    font-size: 24px;
+}
+
+/* Las propiedades CSS definen cómo se verá un elemento.
+Los valores de las propiedades representan cómo se aplicarán los estilos.
+Cascada y Especificidad: */
+
+p {
+    color: red;
+  }
+  p {
+    color: green; /* Este color se aplica debido a la cascada */
+  }
+/*
+Modelo de Caja (Box Model): */
+
+div {
+    width: 200px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    margin: 10px;
+  }
+
+/* El modelo de caja se compone de contenido, padding, borde y margen.
+Define cómo se dimensiona y se muestra un elemento en la página.
+Display y Position: */
+
+.boton {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 20px;
+  }
+
+/* display controla cómo se muestra un elemento (bloque, en línea, etc.).
+position determina cómo se posiciona un elemento en la página.
+Tipografía: */
+
+
+
+/* Puedes ajustar la fuente, tamaño, peso y espaciado del texto con propiedades como font-family, font-size, font-weight, y line-height.
+Colores y Fondo: */
+
+p {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+  }
+
+/* Define el color del texto y el fondo con propiedades como color y background-color.
+Puedes usar diferentes formatos de color, como nombres, códigos hexadecimales y funciones rgb().
+Pseudoclases y Pseudoelementos: */
+
+.encabezado {
+    color: #ff9900; /* Color naranja en formato hexadecimal */
+    background: rgba(0, 128, 255, 0.5); /* Fondo azul semitransparente */
+  }
+
+/* Las pseudoclases como :hover permiten estilizar elementos en ciertos estados.
+Los pseudoelementos como ::before y ::after agregan contenido estilizado a elementos.
+Flexbox y Grid Layout: */
+
+/* Flexbox y Grid Layout son tecnologías de diseño que facilitan la creación de diseños flexibles y complejos en CSS.
+Media Queries: */
+
+.contenedor-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contenedor-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+/* Media queries permiten crear diseños responsivos que se adaptan a diferentes tamaños de pantalla y dispositivos. */ */
